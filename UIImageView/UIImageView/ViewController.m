@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MyClass1.h"
+#import "MyClass2.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    MyClass2 *objectB = [[MyClass2 alloc] init];
+    MyClass1 *objectA = [[MyClass1 alloc] init];
+    
+    objectA.value = @"aaa";
+    [objectA addObserver:objectB forKeyPath:@"theData" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:NULL];
+    objectA.value = @"Hello world";
+    [objectA.theData removeObjectAtIndex:0];
+    [objectA removeObserver:objectB forKeyPath:@"theData"];
+    
     
     UIImage *mars = [UIImage imageNamed:@"1.png"];
     NSLog(@"image:%@",mars);
@@ -29,6 +40,8 @@
     //UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"1.png"]];
     [self.view addSubview:iv];
     iv.center = self.view.center;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

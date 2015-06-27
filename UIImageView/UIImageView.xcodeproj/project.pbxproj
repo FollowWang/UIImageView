@@ -15,6 +15,8 @@
 		A05372921B3E757B00CFEB84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05372901B3E757B00CFEB84 /* LaunchScreen.xib */; };
 		A053729E1B3E757B00CFEB84 /* UIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A053729D1B3E757B00CFEB84 /* UIImageViewTests.m */; };
 		A0D04AC91B3E895900BCF7E7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D04AC81B3E895900BCF7E7 /* 1.png */; };
+		A0D04ACC1B3EE57D00BCF7E7 /* MyClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D04ACB1B3EE57D00BCF7E7 /* MyClass1.m */; };
+		A0D04ACF1B3EE60400BCF7E7 /* MyClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D04ACE1B3EE60400BCF7E7 /* MyClass2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		A053729C1B3E757B00CFEB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A053729D1B3E757B00CFEB84 /* UIImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageViewTests.m; sourceTree = "<group>"; };
 		A0D04AC81B3E895900BCF7E7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A0D04ACA1B3EE57D00BCF7E7 /* MyClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass1.h; sourceTree = "<group>"; };
+		A0D04ACB1B3EE57D00BCF7E7 /* MyClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass1.m; sourceTree = "<group>"; };
+		A0D04ACD1B3EE60400BCF7E7 /* MyClass2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass2.h; sourceTree = "<group>"; };
+		A0D04ACE1B3EE60400BCF7E7 /* MyClass2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				A05372861B3E757B00CFEB84 /* AppDelegate.m */,
 				A05372881B3E757B00CFEB84 /* ViewController.h */,
 				A05372891B3E757B00CFEB84 /* ViewController.m */,
+				A0D04ACA1B3EE57D00BCF7E7 /* MyClass1.h */,
+				A0D04ACB1B3EE57D00BCF7E7 /* MyClass1.m */,
+				A0D04ACD1B3EE60400BCF7E7 /* MyClass2.h */,
+				A0D04ACE1B3EE60400BCF7E7 /* MyClass2.m */,
 				A0D04AC81B3E895900BCF7E7 /* 1.png */,
 				A053728B1B3E757B00CFEB84 /* Main.storyboard */,
 				A053728E1B3E757B00CFEB84 /* Images.xcassets */,
@@ -225,7 +235,9 @@
 			files = (
 				A053728A1B3E757B00CFEB84 /* ViewController.m in Sources */,
 				A05372871B3E757B00CFEB84 /* AppDelegate.m in Sources */,
+				A0D04ACC1B3EE57D00BCF7E7 /* MyClass1.m in Sources */,
 				A05372841B3E757B00CFEB84 /* main.m in Sources */,
+				A0D04ACF1B3EE60400BCF7E7 /* MyClass2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
