@@ -14,6 +14,7 @@
 		A053728F1B3E757B00CFEB84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A053728E1B3E757B00CFEB84 /* Images.xcassets */; };
 		A05372921B3E757B00CFEB84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05372901B3E757B00CFEB84 /* LaunchScreen.xib */; };
 		A053729E1B3E757B00CFEB84 /* UIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A053729D1B3E757B00CFEB84 /* UIImageViewTests.m */; };
+		A0D04AC91B3E895900BCF7E7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D04AC81B3E895900BCF7E7 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A05372971B3E757B00CFEB84 /* UIImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A053729C1B3E757B00CFEB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A053729D1B3E757B00CFEB84 /* UIImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageViewTests.m; sourceTree = "<group>"; };
+		A0D04AC81B3E895900BCF7E7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				A05372861B3E757B00CFEB84 /* AppDelegate.m */,
 				A05372881B3E757B00CFEB84 /* ViewController.h */,
 				A05372891B3E757B00CFEB84 /* ViewController.m */,
+				A0D04AC81B3E895900BCF7E7 /* 1.png */,
 				A053728B1B3E757B00CFEB84 /* Main.storyboard */,
 				A053728E1B3E757B00CFEB84 /* Images.xcassets */,
 				A05372901B3E757B00CFEB84 /* LaunchScreen.xib */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A053728D1B3E757B00CFEB84 /* Main.storyboard in Resources */,
+				A0D04AC91B3E895900BCF7E7 /* 1.png in Resources */,
 				A05372921B3E757B00CFEB84 /* LaunchScreen.xib in Resources */,
 				A053728F1B3E757B00CFEB84 /* Images.xcassets in Resources */,
 			);
@@ -418,6 +422,7 @@
 				A05372A31B3E757B00CFEB84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A05372A41B3E757B00CFEB84 /* Build configuration list for PBXNativeTarget "UIImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				A05372A61B3E757B00CFEB84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

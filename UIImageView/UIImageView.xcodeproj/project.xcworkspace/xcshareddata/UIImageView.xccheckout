@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E176118F-96D1-4C42-AACA-17989C1CA118</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>UIImageView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E044D5CE14A5109217B135A1367B9D48BA82F5A7</key>
 		<string>github.com:FollowWang/UIImageView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UIImageView/UIImageView.xcodeproj/project.xcworkspace</string>
+	<string>UIImageView/UIImageView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E044D5CE14A5109217B135A1367B9D48BA82F5A7</key>
